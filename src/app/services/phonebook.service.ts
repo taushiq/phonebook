@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import 'rxjs/add/operator/map';
 
-const baseUrl = 'http://localhost:4300/contacts/';
+const baseUrl = 'https://phonebook-angular.herokuapp.com/contacts/';
 
 
 //concat('http://kvinod.com/old_ci/randomdata/images/' , (if gender == 'Male' then 'men' else 'women' end), '/' , id , '.jpg')
